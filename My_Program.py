@@ -1,11 +1,23 @@
 import sys
 
-user1 = input("what's your name?")
-user2 = input("and your name?")
+user1 = input("What's your name?")
+user2 = input("And your name?")
+
+christianMinecraftserver = input("Would any of you like to learn about our lord and savior Cheesus Puffus?")
+
+def oof(aa1):
+    if aa1 == "no":
+        return("oof")
+    elif aa1 == "yes":
+        return("Ok, for your induction you must play rock, paper, or scissors!!")
+    else:
+        return("I asked you a yes or no question and that is how you respond? I have better things to do than to invite you.")
+
+print(oof(christianMinecraftserver))
 
 user1_answer = input(user1 + ", do you choose rock, paper, or scissors?")
 user2_answer = input(user2 + ", do you choose rock, paper, or scissors?")
-christianMinecraftserver = input("Would any of you like to learn about our lord and savior Cheesus Puffus?")
+
 
 def compare(a1, a2):
     if a1 == a2:
